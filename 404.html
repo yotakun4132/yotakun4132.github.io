@@ -4,6 +4,13 @@
         <meta charset="utf-8">
         <title>ytknのweb</title>
         <link rel="stylesheet" href="404.css">
+        <script type="text/javascript">
+        function ShowNowYear() {
+            var now = new Date();
+            var year = now.getFullYear();
+            document.write(year);
+        }
+        </script>
     </head>
     <body>
         <!-- ヘッダー -->
@@ -40,7 +47,13 @@
                 </div>
             </div>
             <div class="footer-copyright">
-                <small>&copy;2021-yotakun 4132 All Rights Reserved.</small>
+                <small>
+                    &copy;
+                    <script type="text/javascript">
+                    ShowNowYear();
+                    </script>
+                    -yotakun 4132 All Rights Reserved.
+                </small>
             </div>
         </div>
         <!-- フッターここまで -->
