@@ -1,2 +1,2 @@
 # yotakun4132.github.io
-ytkn.online
+http://www.ytkn.online
