@@ -45,6 +45,9 @@ body {
     border-top: 1px solid;
     border-bottom: 1px solid;
 }
+.link img {
+    width: 100px;
+}
 .notice1 {
     padding: 10px;
     border: 3px double;
