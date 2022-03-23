@@ -74,9 +74,12 @@ li {
 .old3-pc p {
     font-size: 12px;
 }
-.web1-server img {
+.old1-server img {
     float: left;
 }
-.web1-server p {
+.old1-server p {
     font-size: 12px;
+}
+.old1-server u {
+    color: red;
 }
