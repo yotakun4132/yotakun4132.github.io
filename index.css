@@ -24,6 +24,9 @@ body {
 .footer-feedback {
     padding: 20px 40px;
 }
+.counter-script {
+    padding-left: 20px;
+}
 .footer-copyright {
     float: right;
     padding-right: 10px;
