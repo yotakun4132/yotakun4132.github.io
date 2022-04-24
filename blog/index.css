@@ -29,5 +29,8 @@ body {
     padding-right: 10px;
 }
 .contents {
-    padding: 300px 10%;
+    padding: 10px 20%;
+}
+.article-index a {
+    padding: 10px;
 }
