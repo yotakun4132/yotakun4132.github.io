@@ -1,0 +1,35 @@
+body {
+    font-family: "Yu Gothic";
+}
+.header {
+    background-color: burlywood;
+    color: #fff;
+    height: 160px;
+}
+.header-logo {
+    text-align: center;
+    font-size: 30px;
+    padding: 20px 15px;
+    color: black;
+}
+.header-index{
+    text-align: center;
+}
+.header-index a {
+    padding: 30px;
+    color: black;
+}
+.footer {
+    background-color: burlywood;
+    height: 100px;
+}
+.footer-feedback {
+    padding: 20px 40px;
+}
+.footer-copyright {
+    float: right;
+    padding-right: 10px;
+}
+.contents {
+    padding: 20px 0%;
+}
