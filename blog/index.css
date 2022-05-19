@@ -6,10 +6,12 @@ body {
     color: #fff;
     height: 100px;
 }
-.header-logo {
+.header-logo img {
+    width: 70px;
+    height: 70px;
     float: left;
     font-size: 30px;
-    padding: 28px 20px;
+    padding: 15px 30px;
     color: black;
 }
 .header-index a {
