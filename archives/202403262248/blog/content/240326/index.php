@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ja-JP">
+    <head>
+        <meta charset="utf-8">
+        <title>サイトのデザインをちょっと変更した - ytknのweb</title>
+        <style>
+			@font-face {
+				/* NotoSansJP-VariableFont_wght.ttf */
+				font-family: "NotoSansJP-VariableFont_wght";
+				src: url("/NotoSansJP-VariableFont_wght.ttf") format("truetype");
+			}
+			body {
+				line-height: 1.5rem;
+				font-family: "NotoSansJP-VariableFont_wght", sans-serif;
+				background-color: #F1F1F1;
+			}
+			.background {
+				background-color: #ffffff;
+				max-width: 980px;
+				margin: auto;
+			}
+			.contents {
+				padding: 0 15px;
+			}
+			.date {
+				text-align: right;
+				font-size: 12px;
+			}
+			.contents img {
+				object-fit: cover;
+				width: 40%;
+				height: 100%;
+				display: inline;
+			}
+			.contents h1 {
+				line-height: 40px;
+				margin: 0;
+				padding-top: 15px;
+			}
+		</style>
+        <link rel="icon" href="/picture/favicon.ico">
+    </head>
+    <body>
+        <?php $webroot = $_SERVER['DOCUMENT_ROOT']; include($webroot."/header.php"); ?>
+		<div class="background">
+			<!-- 内容 -->
+			<div class="contents">
+				<h1>サイトのデザインをちょっと変更した</h1>
+				<time datetime="2024-03-26"><p class="date">2024年3月26日（火）</p></time>
+				<hr>
+		      	<p>タイトルの通り。</p>
+			    <p>最も変わったページはブログ一覧のページですかね。<br>
+					今までは記事はタイトルと編集日時だけ書いていましたが、流石にみっともないのでちゃんと表を作って写真も貼って、カーソルを上に置くと色が変わるようにしました。<br>
+			  （左が変更前、右が変更後）</p>
+			  <img alt="before" src="image/01.png">
+			  <img alt="after" src="image/02.png">
+				<p>Yahooニュースの記事一覧を勝手に参考にさせていただきました。本当にありがとうございます！</p>
+				<a href="https://news.yahoo.co.jp/media/giz">ギズモード・ジャパンの記事一覧 - Yahoo!ニュース</a>
+			  <p>また、4Kモニターなどの高解像度モニターでこのサイトを見たときにbodyが左右に広がって見づらかったので、背景を灰色に色付けして幅のサイズを指定してみました。変更前と比べてかなり見やすくてかっこよくなったと思います。</p>
+				<p>あとはすべてのhtmlファイルをphpに変更して、cssファイルは&lt;style&gt;に組み込んで、ヘッダーとフッターを別ファイルに分けました。見た目では代わりはないですが、管理（特にヘッダー・フッターの仕様変更）がとっっっっっても楽になりましたね。</p>
+				<p>私の腕が上がった、ということで自分でも嬉しいわけですが、昔の私のサイトと比べられるようにアーカイブを残しています。よかったら見ていってください（誰得）</p>
+				<a href="/archives/index.php">ytknのweb アーカイブ</a>
+            </div>
+			<!-- 内容ここまで -->
+		</div>
+        <?php $webroot = $_SERVER['DOCUMENT_ROOT']; include($webroot."/footer.php"); ?>
+    </body>
+</html>

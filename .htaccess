@@ -1,13 +1,2 @@
-ErrorDocument 404 /404.html
-
-RewriteEngine on
-
-RewriteCond %{REQUEST_URI} /sp/
-RewriteCond %{HTTP_USER_AGENT} !(iPod|iPhone|Android)
-RewriteRule ^sp/(.*)$ $1 [R]
-RewriteBase /
-
-RewriteCond %{REQUEST_URI} !(/blog/|/img/|/css/|/sp/)
-RewriteCond %{HTTP_USER_AGENT} (iPod|iPhone|Android)
-RewriteRule ^(.*)$ sp/$1 [R]
-RewriteBase /
+AddType application/x-httpd-php .html .php
+ErrorDocument 404 /404.php

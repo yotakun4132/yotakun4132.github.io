@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ja-JP">
+    <head>
+        <meta charset="utf-8">
+        <title>【寿司打チート】寿司打で超高速チートをやる方法！！！誰でも簡単に試せる！？ - ytknのweb</title>
+        <style>
+			@font-face {
+				/* NotoSansJP-VariableFont_wght.ttf */
+				font-family: "NotoSansJP-VariableFont_wght";
+				src: url("/NotoSansJP-VariableFont_wght.ttf") format("truetype");
+			}
+			body {
+				line-height: 1.5rem;
+				font-family: "NotoSansJP-VariableFont_wght", sans-serif;
+				background-color: #F1F1F1;
+			}
+			.background {
+				background-color: #ffffff;
+				max-width: 980px;
+				margin: auto;
+			}
+			.contents {
+				padding: 0 15px;
+			}
+			.date {
+				text-align: right;
+				font-size: 12px;
+			}
+			.contents img {
+				object-fit: cover;
+				max-width: 700px;
+                width: 100%;
+			}
+			.contents h1 {
+				line-height: 40px;
+				margin: 0;
+				padding-top: 15px;
+			}
+		</style>
+        <link rel="icon" href="/picture/favicon.ico">
+    </head>
+    <body>
+        <?php $webroot = $_SERVER['DOCUMENT_ROOT']; include($webroot."/header.php"); ?>
+		<div class="background">
+			<!-- 内容 -->
+			<div class="contents">
+				<h1>【寿司打チート】寿司打で超高速チートをやる方法！！！誰でも簡単に試せる！？</h1>
+				<time datetime="yyyy-mm-dd"><p class="date">2024年3月27日（水）</p></time>
+				<hr>
+				<p>この記事は<a href="https://web.archive.org/web/20240327011454/https://ytkn.seesaa.net/article/482480050.html">私のSeesaaブログ</a>から移行したものです。情報が古い可能性があります。</p>
+				<p>最近、「寿司打」という名タイピングゲームでチートを使って超高速にタイピングをする動画を見つけました。<br>
+                今回は寿司打で誰でもかんたんにチートを使う方法を解説していきます。</p>
+                <img alt="" src="image/01.png">
+				<h2>寿司打とは？</h2>
+				<p>冒頭でも出てきた「寿司打」とは、昔からあるWeb上で自分のタイピング速度を測ることができるフラッシュゲームです。</p>
+				<p>寿司屋の食べ放題で、3000円、5000円、10000円の3つのコースから選び、どれだけ多くの寿司を食べることができるか（どれだけ早くタイピングできるか）測るゲームとなっています。</p>
+				<p>しかし、Adobeが2020年12月31日でフラッシュのサービスを終了したことを受け、寿司打もフラッシュ版から「WebGL」版へと移行されました。</p>
+                <img alt="" src="image/02.png">
+				<p>現在はWebGL版のみ、遊ぶことができます。</p>
+				<h2>どういう仕組み？</h2>
+				<p>寿司打で自動で入力される仕組みを説明します。</p>
+				<p>仕組みはかんたんで、このあと説明するソフトでキーボードの 一つのキー を押すと、AからZ、！？と , . の計29字が入力されるように設定します。そのキーを押し続けると、29字が連続で入力され続けるので、地道に寿司打で入力されていきます。</p>
+				<p>なので、結果を見るとものすごい量のミスタイプになります。</p>
+				<p>つまり、29字の中で正解は1文字だけなので、残りの28字はミスタイプとしてカウントされてしまいます。</p>
+				<p>チートというより、ハッキングでいう、いわゆる「総当たり攻撃」と似たものになるのだと思います。</p>
+				<h2>導入するソフト</h2>
+				<p>チートを試すために一つソフトをダウンロードします。</p>
+				<p>それは、「KeyToKey」というソフトです。このソフトさえあれば試すことができます。</p>
+				<a href="https://keytokey-dev.net/archives/%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89.html">ダウンロードはこちらから</a>
+				<h2>KeytoKeyの設定</h2>
+				<p>ダウンロードしたら、Zipフォルダを解凍し、中にあるこの「KeyToKey.exe」を開きます。</p>
+                <img alt="" src="image/03.png">
+				<p>開くと、このようなタブが表示されます。</p>
+				<p>キーの割り当てをするので、画面上部の編集をクリックします。</p>
+                <img alt="" src="image/04.jpg">
+				<p>すると、画面上にキーボードが表示されます。</p>
+				<p>ここで、先程説明した <strong>一つのキー</strong> を設定します。</p>
+                <img alt="" src="image/05.png">
+				<p>本番で押し続けるキーとなります。（別にBackSpaceキー等でなければ何でも構いません。）</p>
+				<p>私はテンキーの「 . 」キーにしました。（右下のテンキーのEnterの左にあるキーです。」</p>
+				<p>希望のキーを左クリックし、「アクションを割り当てる」をクリックします。</p>
+				<p>するとこのような画面が出るので、左の「文字を入力する」、を選択します。</p>
+                <img alt="" src="image/06.jpg">
+				<p>ここの設定が一番の要です。</p>
+				<p>ここで、キーに29字を割り当てます。</p>
+				<p>まず、①の欄に、「入力する文字」のところに、</p>
+				<p>「abccdefghijklmnopqrstuvwxyz,.!?-」</p>
+				<p>を <strong>繰り返し</strong> 入力します。</p>
+				<p>ここで注意！</p>
+				<p>入力する部分に繰り返し入力しないと、早く入力されません。それではチートの意味がなくなってしまいます。</p>
+				<p>繰り返し入力するというのは、</p>
+				<p>「abccdefghijklmnopqrstuvwxyz,.!?-」</p>
+				<p>という文字列を繰り返し、5回ほど入力する、という意味です。（わかりにくくてすみません）</p>
+				<p>入力できたら右上の決定をクリックして保存しましょう。</p>
+                <img alt="" src="image/07.png">
+				<p>決定すると、このような画面が表示されます。</p>
+				<p>ここにチェックを入れないと、キーを連打しなければいけないので、ちゃんとチェックを入れましょう。</p>
+                <img alt="" src="image/08.png">
+				<p>チェックを入れたら閉じましょう。</p>
+				<p>キーボードの画面で、左下の上のフロッピーディスクのアイコンをクリックして再度保存することを忘れずに！<br>
+                保存したら、キーボードの画面を閉じていただいて構いません。</p>
+				<p>一番最初のこの画面にこのような表示がされていれば一通り設定完了です。</p>
+                <img alt="" src="image/09.jpg">
+				<p>それでは試して見ましょう。</p>
+				<h2>寿司打で実践</h2>
+				<p>では、準備も整ったところで、実際に試してみましょう。</p>
+				<a href="https://sushida.net/">寿司打はこちらから</a>
+				<p>いつもどおりプレイするように、プレイ画面で設定したキーを長押ししてみてください</p>
+				<strong>超絶入力が速いでしょう！</strong>
+				<p>プレイ動画をこちらに用意しました。</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/8zLV5X9ZYIU?si=acFiFIzbY2vdSbiR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+				<p>この動画ほどまで行かずとも、相当速いと思います。</p>
+				<h2>まとめ</h2>
+				<p>今回は、寿司打でチートを使う方法を紹介しました。<br>
+				この記事でご満足いただけたら非常に幸いです。</p>
+				<p>寿司打でチートを使うのもいいですが、自分のタイピングの腕を上げて自分の力で挑戦するほうが楽しいです。</p>
+				<p>ありがとうございました。</p><br>
+			</div>
+			<!-- 内容ここまで -->
+		</div>
+        <?php $webroot = $_SERVER['DOCUMENT_ROOT']; include($webroot."/footer.php"); ?>
+    </body>
+</html>

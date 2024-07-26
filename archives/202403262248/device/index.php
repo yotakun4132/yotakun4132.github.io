@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="ja-JP">
+	<head>
+		<meta charset="utf-8">
+		<title>デバイス紹介 - ytknのweb</title>
+		<style>
+			@font-face {
+				/* NotoSansJP-VariableFont_wght.ttf */
+				font-family: "NotoSansJP-VariableFont_wght";
+				src: url("/NotoSansJP-VariableFont_wght.ttf") format("truetype");
+			}
+			body {
+				line-height: 1.5rem;
+				font-family: "NotoSansJP-VariableFont_wght", sans-serif;
+				background-color: #F1F1F1;
+			}
+			.background {
+				max-width: 980px;
+				margin: auto;
+				background-color: #FFFFFF;
+			}
+			.contents {
+				padding: 0 15px;
+			}
+			.title {
+				border-bottom: 1px solid gray;
+			}
+			.title h1 {
+				padding-top: 15px;
+			}
+			.index {
+				margin-top: 15px;
+				margin-bottom: 30px;
+				padding: 1em 1em 1em 2em;
+				border: 1px solid #999;
+				background-color: #f7f7f7;
+				color: #333333;
+				width: 300px;
+			}
+
+			.index div {
+				display: flex;
+				align-items: center;
+				margin: 0;
+				padding: 5px 0;
+			}
+
+			.index ol {
+				list-style-type: decimal;
+				margin: 0;
+				padding: 0 1.2em;
+				overflow: hidden;
+			}
+
+			.index ol ol {
+				margin-top: 5px;
+			}
+
+			.index li {
+				padding: 5px 0;
+			}
+
+			.index a {
+				color: #166c9d;
+			}
+			.contents img {
+				padding: 10px;
+			}
+			.contents blockquote {
+				font-size: 12px;
+			}
+		</style>
+		<link rel="icon" href="/picture/favicon.ico">
+	</head>
+	<body>
+		<?php $webroot = $_SERVER['DOCUMENT_ROOT']; include($webroot."/header.php"); ?>
+		<div class="background">
+			<!-- 内容 -->
+			<div class="contents">
+				<div class="title">
+					<h1>デバイス紹介</h1><br>
+					<p>2024年3月現在、使用しているサーバー、PCを紹介します。テキトーに記事作ってるので間違ってるかもしれませんが。</p>
+				</div>
+				<div class="index">
+					<div>
+						目次
+						<label><input type="checkbox"/></label>
+					</div>
+					<ol>
+						<li>
+							<a href="#serverPC">サーバー・PC</a>
+							<ol>
+								<li><a href="#server">サーバー</a></li>
+								<li><a href="#PC">PC</a></li>
+							</ol>
+						</li>
+						<li>
+							<a href="#retiredServerPC">引退したサーバー・PC</a>
+							<ol>
+								<li><a href="#retiredServer">引退したサーバー</a></li>
+								<li><a href="#retiredPC">引退したPC</a></li>
+							</ol>
+						</li>
+					</ol>
+				</div>
+				<h2 id="serverPC">サーバー・PC</h2>
+				<h3 id="server">サーバー</h3>
+				<h4>1号機</h4>
+				<img src="picture/server1_1.png" alt="">
+				<img src="picture/server1_2.png" alt="">
+				<h5>スペック</h5>
+				<ul>
+					<li>CPU：Intel Xeon W3530</li>
+					<li>メモリ:DDR3 18GB</li>
+					<li>OS：Proxmox VE 8.1</li>
+					<li>ストレージ：SATA SSD 512GB</li>
+					<li>ネットワーク：1000BASE-T(LAN)</li>
+				</ul>
+				<h4>2号機</h4>
+				<img src="picture/server2_1.png" alt="">
+				<img src="picture/server2_2.png" alt="">
+				<h5>スペック</h5>
+				<ul>
+					<li>CPU：Intel Core i7-950</li>
+					<li>メモリ:DDR3 27GB</li>
+					<li>OS：Proxmox VE 8.1</li>
+					<li>ストレージ：SATA SSD 512GB</li>
+					<li>ネットワーク：1000BASE-T(LAN)x2</li>
+				</ul>
+				<h4>4号機</h4>
+				<img src="picture/server4_1.png" alt="">
+				<img src="picture/server4_2.png" alt="">
+				<h5>スペック</h5>
+				<ul>
+					<li>CPU：Intel Core i7-4770</li>
+					<li>メモリ:DDR3 16GB</li>
+					<li>OS：Proxmox VE 8.1</li>
+					<li>ストレージ：SATA SSD 120GB</li>
+					<li>ネットワーク：1000BASE-T(LAN)</li>
+				</ul>
+				<h4>6号機</h4>
+				<img src="picture/server6_1.png" alt="">
+				<img src="picture/server6_2.png" alt="">
+				<h5>スペック</h5>
+				<ul>
+					<li>CPU：Intel Xeon E3-1220 v6</li>
+					<li>メモリ:DDR3 32GB</li>
+					<li>OS：Proxmox VE 8.1</li>
+					<li>ストレージ：SATA SSD 512GB x2（RAID1 512GB）</li>
+					<li>ネットワーク：10GBASE-T(SFP+)x2</li>
+				</ul>
+				<h4>7号機</h4>
+				<img src="picture/server7_1.png" alt="">
+				<img src="picture/server7_2.png" alt="">
+				<h5>スペック</h5>
+				<ul>
+					<li>CPU：Intel Xeon X5670 x2</li>
+					<li>メモリ:Registered DDR3 122GB</li>
+					<li>OS：Proxmox VE 8.1</li>
+					<li>ストレージ：SATA HDD 2TB</li>
+					<li>ネットワーク：1000BASE-T(LAN)x2</li>
+				</ul>
+				<p>あれ、3号機と5号機どこいった？って思いましたね？<br>
+					3号機と5号機は元々あったのですが、色々あって外した結果、間を詰めずにそこだけ空きました。ただそれだけ<br>
+				ちなみに7号機は見ての通りラックサーバーなのですが、うるさくて止めてます。スペックこそ最高なので、勿体ない...</p>
+				<h3 id="PC">メインPC</h3>
+				<img src="picture/mainPC_1.png" alt="">
+				<img src="picture/MainPC_2.png" alt="">
+				<p>2023年4月にツクモにて購入。自作とBTOで悩んだ末、結局BTOにした。<br>
+					スペックに関しては申し分ないが、SSD２枚とも残り30GB程度しか残ってないので大容量のM.2SSDでも増設しいな～なんて考えている。<br>
+					あとメモリも96GBでは半端なので、128GB（32GB x4）に増設する予定。<br>
+					横の緑色のガムテープは側面にホコリがつくのを防止するためのもの。</p>
+				<h5>スペック</h5>
+				<ul>
+					<li>CPU：Intel Core i7-13700F</li>
+					<li>GPU：NVIDIA GeForce RTX 4070</li>
+					<li>メモリ：DDR4-3200 96GB（32GBx2、16GBx2）</li>
+					<li>OS：Windows 10 Home</li>
+					<li>ストレージ：M.2 SSD 1TB , SATA SSD 1TB , SATA HDD 8TB</li>
+					<li>ネットワーク：10GBASE-T(SFP+)x2 , 2.5GBASE-T(LAN) , Wi-Fi</li>
+					<li>その他：光学ドライブ</li>
+				</ul>
+				<h3>サブPC</h3>
+				<h4>Lenovo Legion Slim 750i</h4>
+				<img src="picture/lenovo_legion.png">
+				<p>2021年8月に購入。<br>
+					前のノートPCが壊れてしまい、新しいPCを購入。<br>
+					久々のゲーミングノートで、その薄さと軽さに驚いた。<br>
+					ただ、所詮ゲーミングノートなので普通のノートPCより重く、あまり屋外で使うことはなかった。</p>
+				<blockquote>写真：Lenovo公式サイトより</blockquote>
+				<h5>スペック</h5>
+				<ul>
+					<li>CPU：Intel Core i7-10750H</li>
+					<li>GPU：GeForce RTX 2060 Max-Q Design</li>
+					<li>メモリ：DDR4 2933MHz 16GB</li>
+					<li>OS：Windows 10 Home</li>
+					<li>ディスプレイ：15.6" IPS ノングレア 1920x1080 144Hz</li>
+					<li>ストレージ：M.2 SSD 1TB</li>
+					<li>重量：1.9kg</li>
+					<li>その他：指紋認証</li>
+				</ul>
+				<h4>HP ENVY 13-aq1005tu</h4>
+				<img src="picture/hp_envy.png">
+				<p>2020年3月に購入。コンパクトで軽く、よく旅行に持っていった。<br>
+					値段の割には性能がまずまずだったので少し後悔していた。<br>
+					その後、1年ちょい使っていたら色々あって壊された。<br>
+					ディスプレイを逆向きに曲げられヒンジがぐにゃぐにゃになってしまったため、<br>
+					一時期ガムテープを巻いて使っていたが、画面がつかなくなって捨てた。</p><br>
+				<blockquote>写真：Amazon販売ページより</blockquote>
+				<h5>スペック</h5>
+				<ul>
+					<li>CPU：Intel Core i5-10210U</li>
+					<li>GPU：Intel UHD Graphics</li>
+					<li>メモリ：DDR4 8GB</li>
+					<li>OS：Windows 10 Home</li>
+					<li>ストレージ：SSD M.2 512GB</li>
+					<li>重量：1.3kg</li>
+					<li>その他：指紋認証</li>
+				</ul>
+				<h2 id="retiredServerPC">引退したサーバー・PC</h2>
+				<h3 id="retiredServer">引退したサーバー</h3>
+				<h4>Dynabook T451 34EB</h4>
+				<img src="picture/dynabook_t451.png">
+				<p>2021年5月購入。ハードオフで3千円で購入した。<br>
+					人生初のサーバー運用機だったが、スペックがカス過ぎてまともに使えなかった。<br>
+					バッテリーとディスプレイが壊れ、今はProxmox VEのWeb管理UIにリモート接続するためのPCになっている。</p><br>
+				<blockquote>写真：Amazon販売ページより</blockquote>
+				<h5>スペック</h5>
+				<ul>
+					<li>CPU：Intel Celeron B815</li>
+					<li>GPU：Intel HD Graphics</li>
+					<li>メモリ：16GB</li>
+					<li>OS：Ubuntu Server 20.04 LTS※</li>
+					<li>ディスプレイ：15,6" グレア 1366x768</li>
+					<li>ストレージ：SATA HDD 500GB</li>
+					<li>重量：2.4kg</li>
+					<li>その他：DVDドライブ</li>
+				</ul>
+				<h3 id="retiredPC">引退したPC</h3>
+				<h3>メインPC</h3>
+				<h4>MSI Trident X</h4>
+				<img src="picture/trident_x.png">
+				<p>2019年2月に購入。当時最高スペックのPCで、拡張性以外はとっても良いPCだった。<br>
+					それなりに荒く使っていた（プラグ抜いて電源断やオーバークロックなど）が、<br>
+					普通に使えていたので思ったより頑丈で良かった。<br>
+					４年使って、家族に譲った。</p>
+				<blockquote>写真：MSI公式サイトより</blockquote>
+				<h5>スペック</h5>
+				<ul>
+					<li>CPU：Intel Core i9-9900K</li>
+					<li>GPU：GeForce RTX 2080</li>
+					<li>メモリ：DDR4 2666MHz 32GB</li>
+					<li>OS：Windows 10 Home</li>
+					<li>ストレージ：M.2 SSD 512GB , mSATA SSD 1TB , SATA HDD 2TB</li>
+					<li>重量：9.2kg</li>
+				</ul>
+				<h4>MSI GT62VR 7re Dominator Pro</h4>
+				<img src="picture/msi_gt62vr.png">
+				<p>2017年3月?頃に購入。前使ってたAlienware(下記を参照)がVR非対応ということでこちらを購入。<br>
+					GTX1070搭載していて当時はかなりの高スペックだった覚えがある。<br>
+					重量が3kg近くあるのに、これを持って友人の家に行っていたのは当時の私元気すぎないか......<br>
+					このPCを捨ててからしばらくゲーミングノートは使っていなかったので、<br>
+					Lenovo Legion購入したときは軽さとコンパクトさにかなり驚いた。</p>
+				<blockquote>写真：MSI公式サイトより</blockquote>
+				<h5>スペック</h5>
+				<ul>
+					<li>CPU：Intel Core i7-7700HQ</li>
+					<li>GPU：GeForce GTX 1070</li>
+					<li>メモリ：DDR4 2400MHz 16GB</li>
+					<li>OS：Windows 10 Home</li>
+					<li>ディスプレイ：15.6" IPS ノングレア 1980x1080 </li>
+					<li>ストレージ：M.2 SSD 256GB , SATA HDD 1TB</li>
+					<li>重量：3.0kg</li>
+				</ul>
+				<h4>DELL ALIENWARE 15 R1</h4>
+				<img src="picture/alienware.png">
+				<p>2015年?購入。初のゲーミングPCを買ってもらった。<br>
+					6年前の事なのでほとんど覚えてないが、宇宙上最も最強のゲーミングPCなどと謳っていた記憶だけある。<br>
+					3モデルあり、最高モデルがGTX980Mで最強PCだったなんて今では想像がつかない。<br>
+					今同じスペックで購入したらいくらになるのかとても気になる。</p>
+				<blockquote>写真：dell公式サイトより</blockquote>
+				<h5>スペック</h5>
+				<ul>
+					<li>CPU：Intel Core i7-4720HQ</li>
+					<li>GPU：GeForce GTX 970M</li>
+					<li>メモリ：DDR3L 1600MHz 8GB</li>
+					<li>OS：Windows 8.1</li>
+					<li>ディスプレイ：15.6" IPS ノングレア 1920x1080</li>
+					<li>ストレージ：M.2 SSD 128GB , SATA HDD 1TB</li>
+					<li>重量：3.2kg</li>
+					<p>この記事作成時にネットで調べて、3モデル中2つ目のスペックのを記載しています。<br>
+						何使っていたかは全く覚えてないです。</p>
+				</ul>
+				<h4>Lenovo IdeaPad Yoga 13</h4>
+				<img src="picture/yoga_13.png">
+				<p>2013年?購入。これが初の自分のPCだった。このPCにはかなりお世話になった。<br>
+					詳しくは覚えていないが、PCでマイクラをやりたかったために購入した覚えがある。（当時ver1.5.x）<br>
+					初期OSがWin 8で、使い始めたのもWin 8だったので使いづらいとは思わなかった（はず）。<br>
+					Alienwareに買い替えて使わなくなり、2019年頃に久しぶりに出してみたら起動しなかった。悲しい。</p><br>
+				<blockquote>写真：Lenovo公式サイトより</blockquote>
+				<h5>スペック</h5>
+				<ul>
+					<li>CPU：Intel Core i7-3537U</li>
+					<li>GPU：Intel HD Graphics 4000</li>
+					<li>メモリ：DDR3 1600MHz 8GB</li>
+					<li>OS：Windows 8</li>
+					<li>ディスプレイ：13.3" グレア 1600x900 360度回転</li>
+					<li>ストレージ：SSD 128GB（他不明）</li>
+					<li>重量：1.5kg</li>
+				</ul>
+			</div>
+			<!-- 内容ここまで -->
+		</div>
+		<?php $webroot = $_SERVER['DOCUMENT_ROOT']; include($webroot."/footer.php"); ?>
+	</body>
+</html>

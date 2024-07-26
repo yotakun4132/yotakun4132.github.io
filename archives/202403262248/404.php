@@ -1,0 +1,43 @@
+<?php header( "HTTP/1.1 404 Not Found" ); ?>
+<!DOCTYPE html>
+<html lang="ja-JP">
+    <head>
+        <meta charset="utf-8">
+        <title>404 Not Found! - ytknのweb</title>
+        <style>
+			@font-face {
+				/* BIZ-UDPGothicR.otf */
+				font-family: "BIZ-UDPGothicR";
+				src: url("/BIZ-UDPGothicR.otf") format("opentype");
+			}
+			body {
+				line-height: 1.5rem;
+				font-family: "BIZ-UDPGothicR", sans-serif;
+				background-color: #F1F1F1;
+			}
+			.contents {
+				padding: 100px;
+				background-color: #FFFFFF;
+			}
+			.error-title h1 {
+				font-size: 50px;
+			}
+		</style>
+        <link rel="icon" href="/picture/favicon.ico">
+    </head>
+    <body>
+        <?php $webroot = $_SERVER['DOCUMENT_ROOT']; include($webroot."/header.php"); ?>
+        <!-- 内容 -->
+        <div class="contents">
+            <div class="error-title">
+                <h1 style="text-align:center;">404 Not Found!</h1>
+                <h2 style="text-align:center;">サイトが見つかりません！</h2>
+            </div>
+            <div class="error-about">
+                <p style="text-align:center;">URLをお確かめの上、再度お試しください。<br>何度も表示される場合は<a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdPRmEr9da7VE3w7LMvAPHRl0AnLmb7mjFNdlhY4YcUp8VI6Q/viewform?usp=pp_url">フィードバック</a>よりご連絡下さい。</p>
+            </div>
+        </div>
+        <!-- 内容ここまで -->
+        <?php $webroot = $_SERVER['DOCUMENT_ROOT']; include($webroot."/footer.php"); ?>
+    </body>
+</html>

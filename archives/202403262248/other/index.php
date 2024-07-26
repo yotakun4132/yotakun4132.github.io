@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja-JP">
+    <head>
+        <meta charset="utf-8">
+        <title>その他 - ytknのweb</title>
+        <style>
+			@font-face {
+				/* NotoSansJP-VariableFont_wght.ttf */
+				font-family: "NotoSansJP-VariableFont_wght";
+				src: url("/NotoSansJP-VariableFont_wght.ttf") format("truetype");
+			}
+			body {
+				line-height: 1.5rem;
+				font-family: "NotoSansJP-VariableFont_wght", sans-serif;
+				background-color: #F1F1F1;
+			}
+			.background {
+				max-width: 980px;
+				margin: auto;
+				background-color: #FFFFFF;
+			}
+			.contents {
+				padding: 0 15px;
+			}
+		</style>
+        <link rel="icon" href="/picture/favicon.ico">
+    </head>
+    <body>
+		<?php $webroot = $_SERVER['DOCUMENT_ROOT']; include($webroot."/header.php"); ?>
+		<div class="background">
+			<!-- 内容 -->
+			<div class="contents">
+				<h1>準備中です。しばらくお待ち下さい。</h1>
+			<!-- 内容ここまで -->
+			</div>
+		</div>
+		<?php $webroot = $_SERVER['DOCUMENT_ROOT']; include($webroot."/footer.php"); ?>
+    </body>
+</html>
