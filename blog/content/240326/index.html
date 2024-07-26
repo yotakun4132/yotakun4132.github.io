@@ -41,7 +41,7 @@
         <link rel="icon" href="/picture/favicon.ico">
     </head>
     <body>
-        <?php $webroot = $_SERVER['DOCUMENT_ROOT']; include($webroot."/header.php"); ?>
+        <?php $webroot = $_SERVER['DOCUMENT_ROOT']; include($webroot."/header.html"); ?>
 		<div class="background">
 			<!-- 内容 -->
 			<div class="contents">
@@ -59,10 +59,10 @@
 			  <p>また、4Kモニターなどの高解像度モニターでこのサイトを見たときにbodyが左右に広がって見づらかったので、背景を灰色に色付けして幅のサイズを指定してみました。変更前と比べてかなり見やすくてかっこよくなったと思います。</p>
 				<p>あとはすべてのhtmlファイルをphpに変更して、cssファイルは&lt;style&gt;に組み込んで、ヘッダーとフッターを別ファイルに分けました。見た目では代わりはないですが、管理（特にヘッダー・フッターの仕様変更）がとっっっっっても楽になりましたね。</p>
 				<p>私の腕が上がった、ということで自分でも嬉しいわけですが、昔の私のサイトと比べられるようにアーカイブを残すことにしました。またサイトに変更があったら更新されると思います、よかったら見比べてみてください（誰得）</p>
-				<a href="/archives/index.php">ytknのweb アーカイブ</a>
+				<a href="/archives/index.html">ytknのweb アーカイブ</a>
             </div>
 			<!-- 内容ここまで -->
 		</div>
-        <?php $webroot = $_SERVER['DOCUMENT_ROOT']; include($webroot."/footer.php"); ?>
+        <?php $webroot = $_SERVER['DOCUMENT_ROOT']; include($webroot."/footer.html"); ?>
     </body>
 </html>

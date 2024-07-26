@@ -2,7 +2,7 @@
 <html lang="ja-JP">
     <head>
         <meta charset="utf-8">
-        <title>その他 - ytknのweb</title>
+        <title>タイトル - ytknのweb</title>
         <style>
 			@font-face {
 				/* NotoSansJP-VariableFont_wght.ttf */
@@ -15,25 +15,42 @@
 				background-color: #F1F1F1;
 			}
 			.background {
+				background-color: #ffffff;
 				max-width: 980px;
 				margin: auto;
-				background-color: #FFFFFF;
 			}
 			.contents {
 				padding: 0 15px;
+			}
+			.date {
+				text-align: right;
+				font-size: 12px;
+			}
+			.contents img {
+				object-fit: cover;
+				width: 100%;
+				height: 100%;
+			}
+			.contents h1 {
+				line-height: 40px;
+				margin: 0;
+				padding-top: 15px;
 			}
 		</style>
         <link rel="icon" href="/picture/favicon.ico">
     </head>
     <body>
-		<?php $webroot = $_SERVER['DOCUMENT_ROOT']; include($webroot."/header.php"); ?>
+        <?php $webroot = $_SERVER['DOCUMENT_ROOT']; include($webroot."/header.html"); ?>
 		<div class="background">
 			<!-- 内容 -->
 			<div class="contents">
-				<h1>準備中です。しばらくお待ち下さい。</h1>
-			<!-- 内容ここまで -->
+				<h1>タイトル</h1>
+				<time datetime="yyyy-mm-dd"><p class="date">yyyy年mm月dd日（a）</p></time>
+				<hr>
+				本文ww
 			</div>
+			<!-- 内容ここまで -->
 		</div>
-		<?php $webroot = $_SERVER['DOCUMENT_ROOT']; include($webroot."/footer.php"); ?>
+        <?php $webroot = $_SERVER['DOCUMENT_ROOT']; include($webroot."/footer.html"); ?>
     </body>
 </html>

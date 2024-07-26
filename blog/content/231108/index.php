@@ -41,7 +41,7 @@
         <link rel="icon" href="/picture/favicon.ico">
     </head>
     <body>
-        <?php $webroot = $_SERVER['DOCUMENT_ROOT']; include($webroot."/header.php"); ?>
+        <?php $webroot = $_SERVER['DOCUMENT_ROOT']; include($webroot."/header.html"); ?>
 		<div class="background">
 			<!-- 内容 -->
 			<div class="contents">
@@ -64,6 +64,6 @@
 			</div>
 			<!-- 内容ここまで -->
 		</div>
-        <?php $webroot = $_SERVER['DOCUMENT_ROOT']; include($webroot."/footer.php"); ?>
+        <?php $webroot = $_SERVER['DOCUMENT_ROOT']; include($webroot."/footer.html"); ?>
     </body>
 </html>
